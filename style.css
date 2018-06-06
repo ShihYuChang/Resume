@@ -1,0 +1,142 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*CSS reset end*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.clearfix{
+    clear: both;
+}
+/*layout end*/
+
+.wrap{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    background: url("https://i.imgur.com/3X9cI5w.png");
+    height: 350px;
+}
+
+#photo{
+    width: 150px;
+    height: 150px;
+    margin:50px 50px 50px 300px;
+    border-radius: 50%;
+    float: left;
+}
+
+.menu_topic{
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    float: left;
+    margin: 80px 50px 50px 60px;
+}
+
+.menu_sub_topic{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    border: 1px solid aliceblue;
+    padding: 10px;
+    margin-top:10px;
+}
+
+.menu{
+    text-align: center;
+    margin-left: 35%;
+}
+
+.menu li{
+    font-size: 25px;
+    float: left;
+    width: 15%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 10%;
+}
+
+
+.menu li a:hover{
+    color: orange;
+}
+
+.content{
+    
+}
+
+.content_body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+    padding:50px 0 50px 0;
+}
+
+.content_body h2{
+    font-size:40px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.content_body p{
+    
+}
+
+
+
+
